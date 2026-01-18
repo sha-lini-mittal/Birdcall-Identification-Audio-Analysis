@@ -1,0 +1,31 @@
+import os
+
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+%matplotlib inline
+import matplotlib.image as mpimg
+from matplotlib.offsetbox import AnnotationBbox, OffsetImage
+
+# Map 1 library
+import plotly.express as px
+
+# Map 2 libraries
+import descartes
+import geopandas as gpd
+from shapely.geometry import Point, Polygon
+
+# Librosa Libraries
+import librosa
+import librosa.display
+
+
+import IPython.display as ipd
+
+import sklearn
+
+import warnings
+warnings.filterwarnings('ignore')
+
+
